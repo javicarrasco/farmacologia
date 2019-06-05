@@ -56,9 +56,9 @@ dorado= #ffcc00
 dorado negrita= #FAA300
 naranja= #ff5e00
 rosaclaro= #dc60bf
-rosa= #a45faf
-rosa oscuro= #a45faf
+verde= #69c029
 gris claro= #f8f7f4
+gris casi oscuro= #dadada
 gris oscuro= #D3D3D3
 *
 * ======================================================= */
@@ -89,9 +89,10 @@ a {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus {
-  color: #a45faf;
+  color: #69c029;
   outline: none;
   text-decoration: none;
 }
@@ -186,7 +187,7 @@ button {
 	color: #000000
 }
 .rosa{
-  color: #a45faf;
+  color: #69c029;
 }
 .blanco{
   color: #fff;
@@ -202,7 +203,7 @@ button {
 
 .bgrosaclaro{
   font-weight: 800;
-  color: #a45faf;
+  color: #69c029;
 	border-radius: 25px;
 	margin: 20px 0px 20px 0px;
   letter-spacing: 1.2px;
@@ -217,15 +218,15 @@ button {
   color: #f8f7f4;
 	border-radius: 5px;
   letter-spacing: 1.2px;
-  background-color: #a45faf;
-	-webkit-box-shadow: inset -260px 0px 80px -30px rgba(242,242,242,0.7);
-  -moz-box-shadow: inset -260px 0px 80px -30px rgba(242,242,242,0.7);
-  box-shadow: inset -260px 0px 80px -30px rgba(242,242,242,0.3);
+  background-color: #69c029;
+	-webkit-box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
+  -moz-box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
+  box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
 }
 }
 .bgdestacado1{
   font-weight: 800;
-  color: #a45faf;
+  color: #69c029;
 	border-radius: 5px;
 	margin: 20px 0px 20px 0px;
   background-color: #fff;
@@ -234,7 +235,7 @@ button {
 }
 .bgdestacado2{
   font-weight: 800;
-  color: #a45faf;
+  color: #69c029;
 	border-radius: 5px;
 	margin: 20px 0px 20px 0px;
   background-color: #f8f7f4;
@@ -324,13 +325,13 @@ button {
 	color: #444444;
 }
 .marcoTexto h2{
-	color: #a45faf;
+	color: #69c029;
 }
 .marcoTexto:hover h2{
 	color: #fff;
 }
 .marcoTexto h3{
-	color: #a45faf;
+	color: #69c029;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -338,7 +339,7 @@ button {
 	color: #fff;
 }
 .marcoTexto h5{
-	color: #a45faf;
+	color: #69c029;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -370,18 +371,19 @@ button {
 	border-bottom: 3px solid #f8f7f4;
 }
 .marcoOSCURO{
-	border:2px solid #ffcc00;
+	border:2px solid #dadada;
 	border-radius: 20px;
 	padding: 15px;
+	background: #f8f7f4;
 }
 .marcoOSCURO h5{
-	color: #B767A4;
+	color: #69c029;
 	opacity: 0.7;
 	font-weight: 600;
 	font-size: 1.6em;
 }
 .marcoOSCURO:hover{
-	background: #ffcc00;
+	background: #D3D3D3;
 	color: #fff;
 }
 .marcoOSCURO:hover h5{
@@ -481,7 +483,7 @@ button {
 #ico-aside #ico-main-menu ul li a:after {
   content: "";
   position: absolute;
-  height: 4px;
+  height: 7px;
   bottom: 7px;
   left: 0px;
   right: 0px;
@@ -638,7 +640,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 }
 
 .ico-table th {
-  background-color: #a45faf;
+  background-color: #69c029;
 }
 .ico-table th h6 {
   color: #f8f7f4;
@@ -826,7 +828,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   margin-bottom: 0;
 }
 .ico-cards .ico-flex-wrap .ico-card h5 {
-	color: #B767A4;
+	color: #69c029;
 	opacity: 0.9;
 	font-weight: 600;
 	font-size: 1.6em;
@@ -984,7 +986,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #a45faf;
+  background-color: #69c029;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
