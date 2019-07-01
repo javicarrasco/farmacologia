@@ -51,12 +51,12 @@ table {
 
 /* =======================================================
 *
-colores CANCER MAMA:
+colores FARMACOLOGÍA:
 dorado= #ffcc00
 dorado negrita= #FAA300
 naranja= #ff5e00
 rosaclaro= #dc60bf
-verde= #69c029
+verde= #43c5a8
 gris claro= #f8f7f4
 gris casi oscuro= #dadada
 gris oscuro= #D3D3D3
@@ -92,7 +92,7 @@ a {
 	text-decoration: none;
 }
 a:hover, a:active, a:focus {
-  color: #69c029;
+  color: #43c5a8;
   outline: none;
   text-decoration: none;
 }
@@ -187,10 +187,13 @@ button {
 	color: #000000
 }
 .rosa{
-  color: #69c029;
+  color: #43c5a8;
 }
 .blanco{
   color: #fff;
+}
+.peque{
+  font-size: 12px;
 }
 .bgdorado{
   font-weight: 700;
@@ -203,7 +206,7 @@ button {
 
 .bgrosaclaro{
   font-weight: 800;
-  color: #69c029;
+  color: #43c5a8;
 	border-radius: 25px;
 	margin: 20px 0px 20px 0px;
   letter-spacing: 1.2px;
@@ -218,15 +221,15 @@ button {
   color: #f8f7f4;
 	border-radius: 5px;
   letter-spacing: 1.2px;
-  background-color: #69c029;
-	-webkit-box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
-  -moz-box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
-  box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
+  background-color: #1ec4c8;
+	-webkit-box-shadow: inset -260px 30px 80px -30px rgba(255,240,0,0.3);
+  -moz-box-shadow: inset -260px 30px 80px -30px rgba(255,240,0,0.3);
+  box-shadow: inset -260px 30px 80px -30px rgba(255,240,0,0.3);
 }
 }
 .bgdestacado1{
   font-weight: 800;
-  color: #69c029;
+  color: #43c5a8;
 	border-radius: 5px;
 	margin: 20px 0px 20px 0px;
   background-color: #fff;
@@ -235,7 +238,7 @@ button {
 }
 .bgdestacado2{
   font-weight: 800;
-  color: #69c029;
+  color: #43c5a8;
 	border-radius: 5px;
 	margin: 20px 0px 20px 0px;
   background-color: #f8f7f4;
@@ -315,7 +318,7 @@ button {
 }
 .marcoTexto{
 	border: 2px solid #ffcc00;
-	margin: 40px 10px 40px 10px;
+	margin: 10px 10px 40px 10px;
 	padding: 1em;
 	border-radius: 25px;
 }
@@ -325,13 +328,13 @@ button {
 	color: #444444;
 }
 .marcoTexto h2{
-	color: #69c029;
+	color: #43c5a8;
 }
 .marcoTexto:hover h2{
 	color: #fff;
 }
 .marcoTexto h3{
-	color: #69c029;
+	color: #43c5a8;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -339,7 +342,7 @@ button {
 	color: #fff;
 }
 .marcoTexto h5{
-	color: #69c029;
+	color: #43c5a8;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -348,6 +351,11 @@ button {
 }
 .marcoTexto:hover img{
 	mix-blend-mode: darken;
+}
+.marcoTexto:active{
+	border: 2px solid #dadada;
+	background: #dadada;
+	color: #444444;
 }
 .marco{
 	border:2px solid #ffcc00;
@@ -377,7 +385,7 @@ button {
 	background: #f8f7f4;
 }
 .marcoOSCURO h5{
-	color: #69c029;
+	color: #43c5a8;
 	opacity: 0.7;
 	font-weight: 600;
 	font-size: 1.6em;
@@ -640,7 +648,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 }
 
 .ico-table th {
-  background-color: #69c029;
+  background-color: #43c5a8;
 }
 .ico-table th h6 {
   color: #f8f7f4;
@@ -666,13 +674,13 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 .ico-fondotable td, .ico-fondotable th {
   border: 0px solid #ddd;
 	padding-right: 10px;
-	line-height: 70%;
+	line-height: 130%;
 }
 .ico-fondotable td p, .ico-fondotable th p{
-	line-height: 100%;
+	line-height: 130%;
 }
 .ico-fondotable td h6, .ico-fondotable th h6{
-	line-height: 100%;
+	line-height: 130%;
 }
 
 .fondotable-borde {
@@ -682,7 +690,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 
 .ico-fondotable tr:nth-child(even){background-color: transparent;}
 
-.ico-fondotable tr:hover {background-color: #ddd;}
+.ico-fondotable tr:hover {background-color: #dadada;}
 
 .ico-services {
   margin-top: 5px;
@@ -828,7 +836,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   margin-bottom: 0;
 }
 .ico-cards .ico-flex-wrap .ico-card h5 {
-	color: #69c029;
+	color: #43c5a8;
 	opacity: 0.9;
 	font-weight: 600;
 	font-size: 1.6em;
@@ -986,7 +994,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #69c029;
+  background-color: #43c5a8;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
